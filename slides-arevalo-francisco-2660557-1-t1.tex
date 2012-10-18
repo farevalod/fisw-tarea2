@@ -1,0 +1,96 @@
+\documentclass{beamer}
+\usetheme{Berlin}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{alltt}
+\usepackage[spanish]{babel}
+\title{Informe de Tarea 2 - Juego Skynet}
+\author{Francisco Ar\'evalo\\
+  \texttt{francisco.arevalod@alumnos.usm.cl}\\
+  \texttt{http://github.com/farevalod/fisw-tarea2}\\
+  \vspace{10mm}
+  Departamento de Inform\'atica\\
+  Universidad T\'ecnica Federico Santa Mar\'ia\\
+  Santiago, Chile}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Goals and Objectives}
+\begin{frame}
+\frametitle{Goals and Objectives}
+\subsection{ARG}
+Develop an active Alternate Reality Game
+\begin{itemize}
+	\item \textbf{Goal}: Promote exercise among users
+	\item Players must disable all robots to survive. 
+	\item They must explore the game area to find robots and items.
+\end{itemize}
+\subsection{Ease-of-use}
+It should be very easy to adopt
+\begin{itemize}
+	\item \textbf{Goal}: Active interfaces
+	\item Users should be able to start playing right away. 
+	\item No need for training.
+	\item Active interfaces are designed to be used while playing instead of bothering with buttons and menus.
+\end{itemize}
+\subsection{Tracking}
+It should track everything
+\begin{itemize}
+	\item \textbf{Goal}: Study robot performance and stats
+	\item Track robot type, performance and fight-or-flight response.
+	\item Track players, scores, items and perks.
+\end{itemize}
+\end{frame}
+\section{Requirements}
+\subsection{Functional}
+\begin{frame}
+\frametitle{Functional}
+\begin{itemize}
+	\item Robots
+	\item Teams
+	\item Explore
+	\item Items
+	\item Setup
+	\item Views
+	\item Map
+	\item Augmented Reality
+\end{itemize}
+\end{frame}
+\subsection{Non-Functional}
+\begin{frame}
+\frametitle{Non-Functional}
+\begin{itemize}
+	\item Endgame
+	\item Logs/Score
+ 	\item Top Player/Team
+\end{itemize}
+\end{frame}
+\section{Use Case Diagram}
+\subsection{Actors}
+\begin{frame}
+	\begin{itemize}
+	\item Player
+	\item Robot
+	\item Item
+	\item Game-Master
+	\item Team
+\end{itemize}
+\end{frame}
+\subsection{Cases}
+\begin{frame}
+\textbf{Player} discovers \textbf{Robot}\\
+\textbf{Player} discovers \textbf{Item}\\
+\textbf{Player} uses \textbf{Item}\\
+\textbf{Robot} is disabled by \textbf{Item}\\
+\textbf{Robot} attacks \textbf{Player}\\
+\textbf{Player} manages \textbf{Team}\\
+\textbf{Game-Master} configures\\
+\subsection{Relationship between Cases}
+\begin{itemize}
+	\item A Game-Master sets up a new game.
+	\item A player discovers a robot and disables it using a previously-found item.
+	\item The game finishes because all robots are disabled.
+\end{itemize}
+\end{frame}
+\end{document}

@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage{url}
+\usepackage{graphicx}
+\begin{document}
+\title{Informe de Tarea 2 - Juego Skynet}
+\author{Francisco Ar\'evalo\\
+  \texttt{francisco.arevalod@alumnos.usm.cl}\\
+  \texttt{http://github.com/farevalod/fisw-tarea2}\\
+  \vspace{10mm}
+  Departamento de Inform\'atica\\
+  Universidad T\'ecnica Federico Santa Mar\'ia\\
+  Santiago, Chile}
+\date{\today}
+\maketitle
+\tableofcontents
+\section{Goals and Objectives}
+\subsection{Business}
+\paragraph{\textbf{Goal}: Promote exercise among users}
+\subparagraph{Develop an active Alternate Reality Game}
+Players must disable all robots to survive. They must explore the game area to find robots and items.
+\subparagraph{It should be very easy to adopt}
+Users should be able to start playing right away. No need for training.
+\subsection{Project}
+\paragraph{\textbf{Goal}: Active interfaces}
+Active interfaces are designed to be used while playing, and enable the user to focus on the game instead of bothering with buttons and menus.\\
+\textit{Pinch to interact with robot, slide to display more info, use GPS to update position.}
+\paragraph{\textbf{Goal}: Study robot performance and stats}
+Track robot type, HP, speed, attack and armour types. Study performance and behaviour (fight-or-flight response) for different parameters.
+\subsection{System}
+\paragraph{\textbf{Goal}: Tracking}
+Track players, scores, robots and items (guns, ammo). Players get scored for games played, robots disabled, remaining HP and collected items. Score can be traded for perks before a match. 
+\subparagraph{Enable users to play solo or team-up}
+Players will be ranked individually and by teams.
+\paragraph{\textbf{Goal}: Manageable}
+\subparagraph{Enable GameMasters to setup game parameters}
+Game map zone, number of players, robots, and items can be set up by a GameMaster. He can customize these options choosing the map polygon, robot types, item type, amount and positioning.
+\section{Requirements}
+\subsection{Functional}
+\paragraph{Robots}
+A player can disable a robot using available items or run away to another area. Robots can move around, and have different types of armour.
+\paragraph{Teams}
+Users can maintain their team status. Teams are ranked on the team leaderboard.
+\paragraph{Explore}
+Users explore the game polygon. They discover robots and items.
+\paragraph{Items}
+Items have position, type and number. They can be discovered by players. They can be used to disable robots.
+\paragraph{Setup}
+GM must setup game options.
+\paragraph{Views}
+\subparagraph{Map}
+Shows discovered Robots, players nearby
+\subparagraph{Augmented Reality}
+Find Robots and items
+\subsection{Non-Functional}
+\paragraph{Endgame}
+\subparagraph{GM Ends game}
+\subparagraph{Humans win}
+All robots are disabled.
+\subparagraph{Robots win}
+Submission or elimination.
+\paragraph{Logs/Score}
+Robots disabled/Players eliminated, timestamps, distance travelled, items used.
+\paragraph{Top Player/Team}
+Group players by teams, show top player and team ranking.
+\section{Use Case Diagram}
+\subsection{Actors}
+\paragraph{Player}
+\paragraph{Robot}
+\paragraph{Item}
+\paragraph{Game-Master}
+\paragraph{Team}
+\subsection{Cases}
+\textbf{Player} discovers \textbf{Robot}\\
+\textbf{Player} discovers \textbf{Item}\\
+\textbf{Player} uses \textbf{Item}\\
+\textbf{Robot} is disabled by \textbf{Item}\\
+\textbf{Robot} attacks \textbf{Player}\\
+\textbf{Player} manages \textbf{Team}\\
+\textbf{Game-Master} configures\\
+\subsection{Relationship between Cases}
+A Game-Master sets up a new game.\\
+A player discovers a robot and disables it using a previously-found item.\\
+The game finishes because all robots are disabled.\\
+\end{document}
