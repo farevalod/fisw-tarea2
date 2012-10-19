@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.21)  18 OCT 2012 23:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.21)  18 OCT 2012 23:31
 entering extended mode
  %&-line parsing enabled.
 **slides-arevalo-francisco-2660557-1-t2.tex
@@ -894,11 +894,8 @@ Overfull \hbox (171.05196pt too wide) has occurred while \output is active
 <domain-model.png, id=82, 671.50874pt x 420.57124pt>
 File: domain-model.png Graphic file (type png)
  <use domain-model.png>
-Overfull \hbox (28.46368pt too wide) in paragraph at lines 29--29
- [] 
- []
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
@@ -907,10 +904,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \vbox (88.97168pt too high) detected at line 29
- []
-
-
 Overfull \hbox (171.05196pt too wide) has occurred while \output is active
  [][] 
  []
@@ -941,7 +934,7 @@ File: basic-sequence.png Graphic file (type png)
 File: player-dies-sequence.png Graphic file (type png)
 
 <use player-dies-sequence.png>
-Overfull \vbox (107.38084pt too high) detected at line 52
+Overfull \vbox (6.80688pt too high) detected at line 52
  []
 
 
@@ -981,7 +974,7 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmtt8.pfb>
-Output written on slides-arevalo-francisco-2660557-1-t2.pdf (5 pages, 120381 by
+Output written on slides-arevalo-francisco-2660557-1-t2.pdf (5 pages, 120377 by
 tes).
 PDF statistics:
  222 PDF objects out of 1000 (max. 8388607)
