@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.21)  18 OCT 2012 18:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.21)  18 OCT 2012 23:30
 entering extended mode
  %&-line parsing enabled.
 **slides-arevalo-francisco-2660557-1-t2.tex
@@ -891,6 +891,26 @@ Overfull \hbox (171.05196pt too wide) has occurred while \output is active
 
 ]
 (./slides-arevalo-francisco-2660557-1-t2.toc)
+<domain-model.png, id=82, 671.50874pt x 420.57124pt>
+File: domain-model.png Graphic file (type png)
+ <use domain-model.png>
+Overfull \hbox (28.46368pt too wide) in paragraph at lines 29--29
+ [] 
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \vbox (88.97168pt too high) detected at line 29
+ []
+
+
 Overfull \hbox (171.05196pt too wide) has occurred while \output is active
  [][] 
  []
@@ -902,21 +922,36 @@ Overfull \hbox (171.05196pt too wide) has occurred while \output is active
  [][] 
  []
 
-[3]
+[3 <./domain-model.png (PNG copy)>]
+<basic-use-case.png, id=141, 603.25375pt x 269.005pt>
+File: basic-use-case.png Graphic file (type png)
+ <use basic-use-case.png>
 Overfull \hbox (171.05196pt too wide) has occurred while \output is active
  [][] 
  []
 
 [4
 
-]
+ <./basic-use-case.png (PNG copy)>]
+<basic-sequence.png, id=170, 524.96124pt x 261.97874pt>
+File: basic-sequence.png Graphic file (type png)
+
+<use basic-sequence.png>
+<player-dies-sequence.png, id=171, 527.9725pt x 240.9pt>
+File: player-dies-sequence.png Graphic file (type png)
+
+<use player-dies-sequence.png>
+Overfull \vbox (107.38084pt too high) detected at line 52
+ []
+
+
 Overfull \hbox (171.05196pt too wide) has occurred while \output is active
  [][] 
  []
 
 [5
 
-]
+ <./basic-sequence.png (PNG copy)> <./player-dies-sequence.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `slides-arevalo-francisco-2660557-1-t2.nav'.
 
@@ -926,18 +961,19 @@ Overfull \hbox (171.05196pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `slides-arevalo-francisco-2660557-1-t2.snm'.
 
- (./slides-arevalo-francisco-2660557-1-t2.aux)
+
+(./slides-arevalo-francisco-2660557-1-t2.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15181 strings out of 495061
- 282767 string characters out of 1182621
+ 15253 strings out of 495061
+ 284341 string characters out of 1182621
  358168 words of memory out of 3000000
- 17950 multiletter control sequences out of 15000+50000
- 6093 words of font info for 23 fonts, out of 3000000 for 9000
+ 18004 multiletter control sequences out of 15000+50000
+ 10899 words of font info for 41 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,15n,58p,443b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
@@ -945,10 +981,10 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/publi
 c/amsfonts/cm/cmtt8.pfb>
-Output written on slides-arevalo-francisco-2660557-1-t2.pdf (5 pages, 94471 byt
-es).
+Output written on slides-arevalo-francisco-2660557-1-t2.pdf (5 pages, 120381 by
+tes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

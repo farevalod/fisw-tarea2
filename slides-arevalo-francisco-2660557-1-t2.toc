@@ -1,13 +1,8 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Domain Model}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Domain, Attributes, Relations, Association Concepts}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{Has one: include cardinality; Composition and Aggregation}{2}{0}{1}
-\beamer@subsectionintoc {1}{3}{Generate code from UML}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Generated code from UML}{2}{0}{1}
 \beamer@sectionintoc {2}{Use Case}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Basic Case}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Alternative Cases}{4}{0}{2}
-\beamer@subsectionintoc {2}{3}{Exceptional Cases}{4}{0}{2}
 \beamer@sectionintoc {3}{System Sequence Diagram}{5}{0}{3}
 \beamer@subsectionintoc {3}{1}{Basic Case}{5}{0}{3}
 \beamer@subsectionintoc {3}{2}{Alternative Cases}{5}{0}{3}
